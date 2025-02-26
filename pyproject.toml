@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pokerbotengine2024"
+version = "0.1.0"
+description = ""
+authors = ["Patrick <PatrickNeira@pm.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+cython = "^3.0.8"
+eval7 = "^0.1.8"
+open-spiel = "^1.0.2"
+poker-game-runner = "0.1.15"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

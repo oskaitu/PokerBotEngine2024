@@ -1,0 +1,16 @@
+{
+  "packages": [
+    "python@3.10"
+  ],
+  "env": {
+    "VENV_DIR": ".venv"
+  },
+  "shell": {
+    "init_hook": [
+      ". $VENV_DIR/bin/activate",
+      "pip install Cython",
+      "pip install eval7 open-spiel --no-cache-dir",
+      "pip install poker-game-runner --no-cache-dir --no-deps"
+    ]
+  }
+}

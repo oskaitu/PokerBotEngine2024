@@ -1,0 +1,26 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "python@3.10": {
+      "last_modified": "2024-02-26T19:46:43Z",
+      "plugin_version": "0.0.3",
+      "resolved": "github:NixOS/nixpkgs/548a86b335d7ecd8b57ec617781f5e652ab0c38e#python310",
+      "source": "devbox-search",
+      "version": "3.10.13",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/lxcbwhpylvcngx5k2wky62rdriwynw7m-python3-3.10.13"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/4y6m8w5pc6fcj0jnl49q6zpkjl74iglp-python3-3.10.13"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/hjiq75b46gw3wzznx278indcrppji823-python3-3.10.13"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/9x6kjq8z5dwcg145l7k2r5lvvb24kckp-python3-3.10.13"
+        }
+      }
+    }
+  }
+}
